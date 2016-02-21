@@ -191,7 +191,7 @@ body {
 
 }
 #page-wrapper { color:#fff; font-size:18px; padding:100px;   height:100vh; 
- background:#FFFDE5 url("img/bg.jpg") no-repeat; background-size: cover;}
+ background:#FFFDE5 url("bg.jpg") no-repeat; background-size: cover;}
 
 .btn {
     display: inline-block;
