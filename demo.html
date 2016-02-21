@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="application-name" content=""/>
+	<meta name="msapplication-TileColor" content="#0bbef8"/>
+	<link rel="shortcut icon" href="img/favicon.png">
+
+	<title>Koheen e-Attendance</title>
+
+	<script type="text/javascript" src="jquery-2.0.2.min.js"></script>
+	<script type="text/javascript" src="drawer.js"></script>
+
+	<link href="drawer.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<div class="topbar"></div>
+
+	<div id="page-wrapper">
+
+	<h1> Introducing Drawer 2.0</h1>
+
+	<p class="lead">An alternative to overlay/modal/lightbox</p>
+	<br/>
+
+	<button class="btn btn-primary" data-toggle="drawer" data-target="#smallDrawer">Show Drawer</button>
+
+
+</div>
+
+
+<div id="smallDrawer" class="drawer width-400" style="visibility:hidden;">
+
+	<h2 class="light">About You<button type="button" data-dismiss="drawer" class="close pull-right">&times;</button></h2>
+	
+				<div class="form-group">
+				<label>Name </label>
+					<input id="date" type="text" class="form-control" placeholder="" autofocus>
+				</div>
+				<div class="form-group">
+					<label>Address</label>
+					<textarea class="form-control" placeholder="" id="selectedEmp"></textarea>
+				</div>
+
+	<button class="btn btn-primary pull-right" data-dismiss="drawer">Submit Form</button>
+
+	</div>
+			
+			
+
+
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+
+});
+
+</script>
+
+</body>
+</html>
