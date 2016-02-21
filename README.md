@@ -1,6 +1,6 @@
 # Drawer
 
-The term “Drawer” is not new. Let me show how it works User hit action button, A drawer appears and current interface is pushed in opposite direction. 
+Drawer can used to show content with more intiutive way with sliding left/right. It is more user frendly that modal dialog box. Points below explain why.
 
 1. There is higher chances of feeling bound cause it is not completely different interface. 
 
